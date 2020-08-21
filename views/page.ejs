@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotify</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="/images/icon.png">
+	<style type="text/css">
+		body,html
+		{
+			height: 100%;
+			width: 100%;
+			margin: -10px;
+			padding: 0;
+			border:0;
+		}
+        nav{
+            position: absolute;
+            background-color:white;
+            margin:0;
+            padding:10px;
+            border:0;
+            top:0;
+            text-align:center;
+            height: 35px;
+            width:100%;
+            left:0;
+            font-size:20px;
+        }
+        div{
+            top:100px;
+            position: absolute;
+            background-color:white;
+            padding:10px;
+            left:10%;
+            width:80%;
+            height:30%;
+            margin:0px;
+            border:0px;
+            display: flex;
+            justify-content:center;
+            text-align:center;
+            float: left;
+            border-radius:5px;
+        }
+        input{
+        min-height:40px;   
+        }
+        button{
+            position: absolute;
+            transform:translateX(-50%);
+            bottom:10px;
+            height:30px;
+            width:80px;
+        }
+        section {
+            position:relative;
+            min-width:200px;
+            top:20px;
+            background-color: rgb(212, 209, 209);
+            height:40px;
+            font-size:30px;
+            padding:3px;
+            color:black;
+        }
+	</style>
+</head>
+<body bgcolor="#eee">
+    <nav>Spotify Artist Search</nav>
+    <div>
+        <form method="POST" action="/">
+            <input type="text" name="artist1" placeholder="artist 1">
+            <input type="text" name="artist2" placeholder="artist 2"><br>
+            <section><%=msg %></section>
+            <button type="submit">Submit</button>
+        </form>   
+        
+    </div>
+</body>

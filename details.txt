@@ -1,0 +1,12 @@
+Client ID 1122b9b2c3a140ef9a8572c63d704fda
+
+Client Secret 62004fabb63f46c6ad5351b05e62f0ea
+
+BQA_9htNDB8rCX7efbFScgWNa9yskgCRwjhpsJBh25-fecA_-uMbx-3NED1MuwPeGU6thu0exalhc2YikrJJ6SLGNL3f0iZTHIFgFFtwbietzCRk2jSXJy8xscS4BQruqJyxhgwf1EKETscmB_wNhM6PfbkMZe9eO6uXVyCEGenC9Y-knWGRQc2sBk5LxZHP42ZS2Q
+
+auth token url
+https://developer.spotify.com/console/get-artist-related-artists/?id=43ZHCT0cAZBISjO8DG9PnE
+
+users
+Satinder Sartaaj
+Garry Sandhu
